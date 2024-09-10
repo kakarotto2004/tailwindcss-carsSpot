@@ -1,0 +1,5 @@
+# ignore tailwindcss node_modules/
+node_modules/
+
+# full tailwind default configuration
+fullTailwindConfig.js
