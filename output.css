@@ -706,10 +706,6 @@ video {
   justify-content: space-between;
 }
 
-.text-nowrap{
-  text-wrap: nowrap;
-}
-
 .bg-whiteBg{
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
@@ -763,10 +759,6 @@ video {
   font-size: 40px;
 }
 
-.text-px0{
-  font-size: 0px;
-}
-
 .uppercase{
   text-transform: uppercase;
 }
@@ -782,10 +774,6 @@ video {
 .text-blueDark{
   --tw-text-opacity: 1;
   color: rgb(1 71 255 / var(--tw-text-opacity));
-}
-
-.text-opacity-0{
-  --tw-text-opacity: 0;
 }
 
 .shadow{
