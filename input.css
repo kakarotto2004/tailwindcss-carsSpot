@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply py-3 px-6 rounded-lg font-robotoFlex font-semibold;
+}
+
+.btn-blue {
+    @apply bg-blueDark text-whiteBg;
+}
+
+.btn-white {
+    @apply bg-transparent text-blueDark border border-blueDark;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
