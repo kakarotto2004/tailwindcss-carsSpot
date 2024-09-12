@@ -598,76 +598,24 @@ video {
   position: relative;
 }
 
-.right-0{
-  right: 0px;
+.-right-32{
+  right: -8rem;
 }
 
-.top-60{
-  top: 15rem;
+.right-0{
+  right: 0px;
 }
 
 .top-0{
   top: 0px;
 }
 
-.-top-24{
-  top: -6rem;
-}
-
-.-top-28{
-  top: -7rem;
-}
-
-.-top-36{
-  top: -9rem;
-}
-
-.-top-32{
-  top: -8rem;
-}
-
-.right-10{
-  right: 2.5rem;
-}
-
-.top-72{
-  top: 18rem;
-}
-
-.top-52{
-  top: 13rem;
-}
-
 .top-56{
   top: 14rem;
 }
 
-.left-0{
-  left: 0px;
-}
-
-.-right-36{
-  right: -9rem;
-}
-
-.-right-32{
-  right: -8rem;
-}
-
 .-z-10{
   z-index: -10;
-}
-
-.z-10{
-  z-index: 10;
-}
-
-.-z-0{
-  z-index: 0;
-}
-
-.clear-both{
-  clear: both;
 }
 
 .mx-2{
@@ -675,13 +623,20 @@ video {
   margin-right: 0.5rem;
 }
 
-.my-32{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
-
 .mb-12{
   margin-bottom: 3rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-80{
+  margin-bottom: 20rem;
+}
+
+.mr-12{
+  margin-right: 3rem;
 }
 
 .mr-6{
@@ -692,20 +647,8 @@ video {
   margin-top: 3rem;
 }
 
-.mb-72{
-  margin-bottom: 18rem;
-}
-
 .mt-32{
   margin-top: 8rem;
-}
-
-.mb-80{
-  margin-bottom: 20rem;
-}
-
-.block{
-  display: block;
 }
 
 .inline-block{
@@ -728,26 +671,8 @@ video {
   height: 100%;
 }
 
-.h-1\/2{
-  height: 50%;
-}
-
-.w-full{
-  width: 100%;
-}
-
-.w-1\/2{
-  width: 50%;
-}
-
 .rotate-180{
   --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-150{
-  --tw-scale-x: 1.5;
-  --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -771,10 +696,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.overflow-hidden{
-  overflow: hidden;
 }
 
 .bg-whiteBg{
@@ -801,6 +722,10 @@ video {
   padding-left: 5rem;
 }
 
+.pt-20{
+  padding-top: 5rem;
+}
+
 .font-bebas{
   font-family: Bebas Neue;
 }
@@ -818,8 +743,29 @@ video {
   line-height: 1;
 }
 
+.text-px21{
+  font-size: 21px;
+}
+
+.text-px40{
+  font-size: 40px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 .tracking-tighter{
   letter-spacing: -0.05em;
+}
+
+.tracking-tight{
+  letter-spacing: -0.025em;
+}
+
+.text-blueDark{
+  --tw-text-opacity: 1;
+  color: rgb(1 71 255 / var(--tw-text-opacity));
 }
 
 .shadow{
