@@ -6,8 +6,10 @@
     <title>CarsSpot</title>
 
     <link rel="stylesheet" href="output.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body class="bg-whiteBg">
+<body class="bg-whiteBg overflow-x-hidden">
     <div>
         <header class="flex flex-row justify-between items-center py-4 px-16 lg:px-32">
             <div>
@@ -22,7 +24,7 @@
             </div>
         </header>
 
-        <main>
+        <main class="overflow-hidden">
             <section class="mt-32 mb-80">
                 <div class="absolute top-0 -right-32 -z-10">
                     <img src="img/wave-1.png" alt="wave" class="inline-block h-full scale-105 ">
@@ -67,23 +69,23 @@
                 </div>
             </section>
             
-            <section>
-               <div>
-                    <p>id nostrud esse consecteur in eu mollit fugiat aute. velit nulla commodo.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo tempora, aut ea tempore, laboriosam accusantium dolores aspernatur dolore quaerat doloribus blanditiis dignissimos culpa, nam earum molestias illum explicabo quisquam itaque!</p>
-                    <button>Rozwiń &#8595;</button>
+            <section class="flex justify-between px-32 py-20 bg-grayDark text-whiteBg font-robotoCondensed">
+               <div class="mr-12">
+                    <h4 class="font-bebas text-2xl tracking-tight">id nostrud esse consecteur in eu mollit fugiat aute. velit nulla commodo.</h4>
+                    <p class="mt-4 mb-6 text-sm">Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
+                    <button class="pb-2 border-b border-white">Rozwiń <i class="fa-solid fa-arrow-down ml-1"></i></button>
                </div>
                <div>
-                    <p>id nostrud esse consecteur in eu mollit fugiat aute. velit nulla commodo.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo tempora, aut ea tempore, laboriosam accusantium dolores aspernatur dolore quaerat doloribus blanditiis dignissimos culpa, nam earum molestias illum explicabo quisquam itaque!</p>
-                    <button>Rozwiń &#8595;</button>
+                    <h4 class="font-bebas text-2xl tracking-tight">id nostrud esse consecteur in eu mollit fugiat aute. velit nulla commodo.</h4>
+                    <p class="mt-4 mb-6 text-sm">Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
+                    <button class="pb-2 border-b border-white">Rozwiń <i class="fa-solid fa-arrow-down ml-1"></i></button>
                </div> 
             </section>
         </main>
 
-        <footer>
-            <p>Cars Spot</p>
-            <a href="#">Polityka prywatności</a>
+        <footer class="flex justify-between px-32 py-6 bg-grayDark text-whiteBg border-t border-whiteBg">
+            <p class="font-robotoCondensed font-bold">Cars Spot</p>
+            <a href="#" class="font-robotoCondensed underline">Polityka prywatności</a>
         </footer>
     </div>
 </body>
