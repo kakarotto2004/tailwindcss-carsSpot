@@ -20,6 +20,11 @@ module.exports = {
                 px21: ['21px'],
                 px40: ['40px'],
             },
+
+            spacing: {
+                p120px: ['120px'],
+                p88px: ['88px'],
+            },
         },
     },
     plugins: [],
