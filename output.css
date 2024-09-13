@@ -598,8 +598,8 @@ video {
   position: relative;
 }
 
-.-right-56{
-  right: -14rem;
+.-right-52{
+  right: -13rem;
 }
 
 .right-0{
@@ -649,16 +649,20 @@ video {
   margin-left: 0.25rem;
 }
 
+.mr-10{
+  margin-right: 2.5rem;
+}
+
 .mr-12{
   margin-right: 3rem;
 }
 
-.mr-16{
-  margin-right: 4rem;
-}
-
 .mr-6{
   margin-right: 1.5rem;
+}
+
+.mr-8{
+  margin-right: 2rem;
 }
 
 .mt-14{
@@ -805,14 +809,18 @@ video {
   padding: 5rem;
 }
 
+.p-12{
+  padding: 3rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
-}
-
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .px-32{
@@ -833,6 +841,11 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pb-2{
@@ -863,22 +876,18 @@ video {
   font-family: Roboto Flex;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-.text-7xl{
-  font-size: 4.5rem;
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
 }
 
 .text-px21{
   font-size: 21px;
-}
-
-.text-px40{
-  font-size: 40px;
 }
 
 .text-sm{
@@ -955,6 +964,18 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.btn-smaller{
+  border-radius: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-family: Roboto Flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
 .btn{
   border-radius: 0.5rem;
   padding-top: 0.75rem;
@@ -962,6 +983,8 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-family: Roboto Flex;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
 }
 
@@ -985,6 +1008,60 @@ video {
   content: "";
   clear: both;
   display: block;
+}
+
+@media (min-width: 641px){
+  .sm\:inline-block{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 769px){
+  .md\:mr-12{
+    margin-right: 3rem;
+  }
+
+  .md\:mr-16{
+    margin-right: 4rem;
+  }
+
+  .md\:p-20{
+    padding: 5rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-px40{
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1025px){

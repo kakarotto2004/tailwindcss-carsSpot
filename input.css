@@ -4,8 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn-smaller {
+    @apply py-3 px-5 rounded-lg font-robotoFlex font-semibold text-sm;
+}
+
 .btn {
-    @apply py-3 px-6 rounded-lg font-robotoFlex font-semibold;
+    @apply py-3 px-6 rounded-lg font-robotoFlex font-semibold text-base;
 }
 
 .btn-blue {
