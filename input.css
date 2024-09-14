@@ -33,6 +33,18 @@
     @apply w-2 h-2 mx-1 lg:mx-2 rounded-full cursor-pointer;
 }
 
+.small-bebas {
+    @apply font-bebas text-xl sm:text-px21 md:text-2xl tracking-tight;
+}
+
+.about-p {
+    @apply mt-4 mb-4 sm:mb-6 text-sm;
+}
+
+.btn-border-b-white {
+    @apply pb-2 border-b border-white text-sm;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
