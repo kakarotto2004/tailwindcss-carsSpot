@@ -636,8 +636,8 @@ video {
   margin-left: 0.25rem;
 }
 
-.mr-2{
-  margin-right: 0.5rem;
+.mr-3{
+  margin-right: 0.75rem;
 }
 
 .mr-4{
@@ -666,10 +666,6 @@ video {
 
 .hidden{
   display: none;
-}
-
-.h-full{
-  height: 100%;
 }
 
 .w-fit{
@@ -983,6 +979,20 @@ video {
   }
 }
 
+.gallery-cartype{
+  font-family: Roboto Flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.025em;
+}
+
+@media (min-width: 769px){
+  .gallery-cartype{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .gallery-photos{
   margin-bottom: 1.75rem;
   width: 83.333333%;
@@ -1064,12 +1074,6 @@ video {
   padding-bottom: 0.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
 }
 
 @media (min-width: 641px){

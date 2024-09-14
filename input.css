@@ -25,6 +25,10 @@
     @apply absolute top-72 sm:top-64 lg:top-56 -right-3 sm:right-0 sm:w-2/3 lg:w-fit;
 }
 
+.gallery-cartype {
+    @apply font-robotoFlex tracking-tight text-sm md:text-base;
+}
+
 .gallery-photos {
     @apply mb-7 sm:mb-0 sm:mr-10 md:mr-16 w-10/12 sm:w-1/2 sm:h-1/2 lg:w-full;
 }
@@ -43,10 +47,4 @@
 
 .btn-border-b-white {
     @apply pb-2 border-b border-white text-sm;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
 }
