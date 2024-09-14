@@ -6,11 +6,11 @@
 
 
 .big-bebas {
-    @apply font-bebas text-5xl sm:text-6xl md:text-7xl tracking-tighter
+    @apply font-bebas text-5xl sm:text-6xl md:text-7xl tracking-tighter;
 }
 
 .btn_base {
-    @apply rounded-lg font-robotoFlex font-semibold py-2 px-3 sm:px-4 sm:py-3 md:px-6 text-xs sm:text-sm md:text-base inline-block;
+    @apply py-2 px-3 sm:px-4 sm:py-3 md:px-6 text-xs sm:text-sm md:text-base inline-block rounded-lg font-robotoFlex font-semibold tracking-tight;
 }
 
 .btn-blue {
@@ -22,11 +22,11 @@
 }
 
 .cars-main {
-    @apply absolute top-80 sm:top-64 lg:top-56 -right-3 sm:right-0 sm:w-2/3 lg:w-fit;
+    @apply absolute top-72 sm:top-64 lg:top-56 -right-3 sm:right-0 sm:w-2/3 lg:w-fit;
 }
 
 .gallery-photos {
-    @apply mb-5 sm:mb-0 sm:mr-10 md:mr-16 w-10/12 sm:w-1/2 sm:h-1/2 lg:w-full;
+    @apply mb-7 sm:mb-0 sm:mr-10 md:mr-16 w-10/12 sm:w-1/2 sm:h-1/2 lg:w-full;
 }
 
 .gallery-dot {

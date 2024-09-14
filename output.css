@@ -706,10 +706,6 @@ video {
   justify-content: space-around;
 }
 
-.justify-evenly{
-  justify-content: space-evenly;
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
@@ -718,17 +714,8 @@ video {
   overflow-x: hidden;
 }
 
-.border-b{
-  border-bottom-width: 1px;
-}
-
 .border-t{
   border-top-width: 1px;
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-whiteBg{
@@ -756,9 +743,9 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4{
@@ -789,20 +776,6 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
 }
 
 .pl-7{
@@ -949,6 +922,7 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 @media (min-width: 641px){
@@ -989,7 +963,7 @@ video {
 
 .cars-main{
   position: absolute;
-  top: 20rem;
+  top: 18rem;
   right: -0.75rem;
 }
 
@@ -1010,7 +984,7 @@ video {
 }
 
 .gallery-photos{
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
   width: 83.333333%;
 }
 
@@ -1100,11 +1074,6 @@ video {
 }
 
 @media (min-width: 641px){
-  .sm\:my-14{
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-  }
-
   .sm\:mb-0{
     margin-bottom: 0px;
   }
@@ -1173,6 +1142,11 @@ video {
   .sm\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .sm\:py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .sm\:pl-20{
