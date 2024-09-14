@@ -17,7 +17,8 @@ module.exports = {
             },
 
             fontSize: {
-                px21: ['21px'],
+                px21: ['22px'],
+                px26: ['26px'],
                 px40: ['40px'],
             },
 

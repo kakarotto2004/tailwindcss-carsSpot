@@ -34,7 +34,7 @@
 }
 
 .small-bebas {
-    @apply font-bebas text-xl sm:text-px21 md:text-2xl tracking-tight;
+    @apply font-bebas text-xl sm:text-px21 md:text-px26 tracking-tight;
 }
 
 .about-p {
