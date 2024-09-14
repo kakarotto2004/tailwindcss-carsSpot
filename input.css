@@ -4,16 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-smaller {
-    @apply py-2 px-4 rounded-lg font-robotoFlex font-semibold text-xs;
+
+.big-bebas {
+    @apply font-bebas text-5xl sm:text-6xl md:text-7xl tracking-tighter
 }
 
-.btn-small {
-    @apply py-3 px-5 rounded-lg font-robotoFlex font-semibold text-sm;
-}
-
-.btn {
-    @apply py-3 px-6 rounded-lg font-robotoFlex font-semibold text-base;
+.btn_base {
+    @apply rounded-lg font-robotoFlex font-semibold py-2 px-3 sm:px-4 sm:py-3 md:px-6 text-xs sm:text-sm md:text-base inline-block;
 }
 
 .btn-blue {
@@ -22,6 +19,18 @@
 
 .btn-white {
     @apply bg-transparent text-blueDark border border-blueDark;
+}
+
+.cars-main {
+    @apply absolute top-80 sm:top-64 lg:top-56 -right-3 sm:right-0 sm:w-2/3 lg:w-fit;
+}
+
+.gallery-photos {
+    @apply mb-5 sm:mb-0 sm:mr-10 md:mr-16 w-10/12 sm:w-1/2 sm:h-1/2 lg:w-full;
+}
+
+.gallery-dot {
+    @apply w-2 h-2 mx-1 lg:mx-2 rounded-full cursor-pointer;
 }
 
 .clearfix::after {
